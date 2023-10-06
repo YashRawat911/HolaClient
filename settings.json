@@ -1,36 +1,36 @@
 {
   "version": "1.5.8",
-  "name": "HolaClient",
-  "background": "/cdn/background.jpg",
-  "banner": "https://media.discordapp.net/attachments/1135147336771850250/1135147435228934176/image.png",
+  "name": "LykCloud",
+  "background": "/cdn/background.gif",
+  "banner": "/cdn/banner.banner.jpg",
   "defaulttheme": "default",
   "logo": {
-    "url": "https://media.discordapp.net/attachments/1082632266506850344/1108449684709703770/image.png",
+    "url": "https://cdn.discordapp.com/avatars/1143847916998492191/3bc1c6930e77e05cacb1f4f751757f4a.webp",
     "rotate": true,
     "speed": "6s"
   },
   "website": {
     "port": 2000,
-    "secret": "GENERATE",
-    "hostname": "https://client.example.com",
-    "description": "The best reliable hosting ever.",
+    "secret": "s1Ig7k0kzTzCIGIq",
+    "hostname": "https://dash.lykhost.link",
+    "description": "▼△ 𝙻𝚈𝙺 𝙲𝙻𝙾𝚄𝙳 - 𝙷𝙾𝚂𝚃𝙸𝙽𝙶 ▼△",
     "language": "en"
   },
   "links": {
-    "discord": "https://discord.gg/CvqRH9TrYK",
-    "website": "https://holaclient.tech",
+    "discord": "https://discord.gg/EQvCKjdftf",
+    "website": "https://lykhost.link",
     "status": "",
-    "note": "leave empty to disable!"
+    "note": ""
   },
   "pterodactyl": {
-    "domain": "https://panel.example.com",
-    "key": "ptla_",
-    "account_key": "ptlc_"
+    "domain": "https://panel.lykhost.link",
+    "key": "ptla_4e9K1iD5JO3XqXZ8FVM5XyEEUNRbk3EOsbRVPE3a0nF",
+    "account_key": "ptlc_PDTgsEK9ETTffm1fUH72VS5jLcwfl0DGewpZ3ikDG2x"
   },
   "features": {
     "news": {
       "enabled": true,
-      "content": "Hi, Welcome to HolaClient!"
+      "content": "Hi, Welcome to LykCloud"
     },
     "anti_pteroVM": {
       "enabled": true,
@@ -39,7 +39,7 @@
       "note": "The above value must be in minutes. Available levels: ['low', 'medium', 'high', 'strict']"
     },
     "captcha": {
-      "enabled": false,
+      "enabled": true,
       "site_key": ""
     },
     "purge": {
@@ -56,10 +56,7 @@
     "maintenance": {
       "status": false,
       "admins": [
-        "testify@holaclient.tech",
-        "863452735998656512",
-        "0446",
-        "crazymath072"
+        "917069166157119509"
       ],
       "note": "enter email, Discord ID, HCID or username."
     },
@@ -90,13 +87,13 @@
       "password": ""
     },
     "bot": {
-      "enabled": false,
-      "token": "",
+      "enabled": true,
+      "token": "MTE0Mzg0NzkxNjk5ODQ5MjE5MQ.GivwLF.56elDK5BMsG2ox1VJYqsm0ZP0AM1mgyF9EaMDk",
       "joinguild": {
         "_comment": "Set this to true if you want to make users forcefully join your server.",
-        "enabled": false,
+        "enabled": true,
         "guildid": [
-          "Discord_Server_ID"
+          "1143116469866090506"
         ]
       }
     },
@@ -119,10 +116,10 @@
   "earn": {
     "daily": {
       "enabled": true,
-      "coins": "20"
+      "coins": "3"
     },
     "linkvertise": {
-      "enabled": true,
+      "enabled": false,
       "userid": "641981",
       "coins": 5,
       "dailyLimit": "null",
@@ -131,7 +128,7 @@
       "cooldown": "null"
     },
     "shareus": {
-      "enabled": true,
+      "enabled": false,
       "apiKey": "JtPFh3glixSKXq2oM5fVDX88Snu2",
       "coins": 25,
       "dailyLimit": "null",
@@ -140,7 +137,7 @@
       "cooldown": "null"
     },
     "linkpays": {
-      "enabled": true,
+      "enabled": false,
       "apiKey": "59d5df2f14b69d49e5a756e7e90696e2a65fe806",
       "coins": 25,
       "dailyLimit": "null",
@@ -149,7 +146,7 @@
       "cooldown": "null"
     },
     "gyanilinks": {
-      "enabled": true,
+      "enabled": false,
       "apiKey": "f43918a0a673df8c825aba7ddc0dab82aa6087be",
       "coins": 25,
       "dailyLimit": "null",
@@ -158,14 +155,14 @@
       "cooldown": "null"
     },
     "referral": {
-      "enabled": true,
+      "enabled": false,
       "coins": "50",
       "referred": "25",
       "uses": "9999999999999",
       "note": "Coins: (How much the referrer should get?), referred: (How much should the redeemer get?), uses: (How many times the a referral code can be used?)"
     },
     "j4r": {
-      "enabled": true,
+      "enabled": false,
       "ads": [
         {
           "name": "HostingConnect",
@@ -182,7 +179,7 @@
       ]
     },
     "arcio": {
-      "enabled": true,
+      "enabled": false,
       "widgetid": "none",
       "afk page": {
         "enabled": true,
@@ -194,7 +191,7 @@
     }
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "adsense": {
       "enabled": false,
       "clientid": ""
@@ -240,7 +237,7 @@
   },
   "api": {
     "enabled": true,
-    "key": "GENERATE",
+    "key": "hcla_D5mOndUuzGwsEwuPMQKZl6Q9CqZpcv6Z",
     "client": {
       "enabled": true,
       "locations": {}
@@ -250,18 +247,18 @@
     "length": 8
   },
   "allow": {
-    "signup": true,
+    "signup": false,
     "newusers": true,
     "regen": true,
     "gift": {
-      "status": true,
-      "resources": true,
+      "status": false,
+      "resources": false,
       "coins": true
     },
     "request": {
-      "status": true,
+      "status": false,
       "coins": {
-        "status": true,
+        "status": false,
         "limit": "400",
         "dailyLimit": "200",
         "note": "dailyLimit is the total limit of requests for an account."
@@ -272,12 +269,12 @@
       "create": true,
       "modify": true,
       "delete": true,
-      "cost": "0",
+      "cost": "5",
       "note": "cost is the creation cost, Set it to 0 for free creation."
     },
     "renewals": {
       "status": false,
-      "cost": 0,
+      "cost": 10,
       "delay": 14,
       "suspended": true,
       "note": "delay is in days."
@@ -285,9 +282,9 @@
   },
   "authentication": {
     "discord": {
-      "id": "",
-      "secret": "",
-      "link": "https://client.example.com",
+      "id": "1143847916998492191",
+      "secret": "XqtTbMnbKozGx7yixgvR3oR5poSEpny5",
+      "link": "https://dash.lykhost.link",
       "callbackpath": "/callback",
       "_comment3": "do not change callbackpath unless you know what you're doing!",
       "prompt": true,
@@ -314,9 +311,9 @@
     "list": {
       "default": {
         "name": "Default",
-        "ram": 3072,
+        "ram": 1025,
         "disk": 5120,
-        "cpu": 100,
+        "cpu": 50%,
         "servers": 1,
         "databases": 1,
         "backups": 1,
@@ -342,9 +339,9 @@
     }
   },
   "coins": {
-    "enabled": true,
+    "enabled": false,
     "store": {
-      "enabled": true,
+      "enabled": false,
       "plans": {
         "invalid": "100",
         "plan name": "plan cost || Not available in this version."
