@@ -313,7 +313,7 @@
         "name": "Default",
         "ram": 1025,
         "disk": 5120,
-        "cpu": 50%,
+        "cpu": 50,
         "servers": 1,
         "databases": 1,
         "backups": 1,
